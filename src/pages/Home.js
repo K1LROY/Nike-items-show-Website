@@ -1,4 +1,5 @@
 import React from "react";
+import Details from "../components/contents/Details";
 import Features from "../components/contents/Features";
 import Service from "../components/contents/Service";
 import Header from "../components/Header";
@@ -11,6 +12,7 @@ export default function Home() {
       <ProductHero />
       <Service />
       <Features />
+      <Details />
     </div>
   );
 }
