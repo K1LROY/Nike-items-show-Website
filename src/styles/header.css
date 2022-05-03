@@ -15,7 +15,7 @@
   width: 100%;
 }
 
-.header-1 {
+.header-1.fixedbar {
   position: fixed !important;
   background: deepskyblue;
   padding: 10px 40px 0 24px;
@@ -98,4 +98,16 @@
 
 .navigator a.search {
   margin-top: 5px;
+}
+
+.fixedHeader {
+  background: #000;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }

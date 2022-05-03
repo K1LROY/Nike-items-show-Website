@@ -21,28 +21,27 @@ ol {
   margin: 0;
 }
 
-html {
+html{
   box-sizing: border-box;
   font-size: 16px;
 }
 
-*,
-*:before,
-*:after {
+
+
+*, *:before, *:after{
   box-sizing: inherit;
 }
 
-ol,
-ul {
+ol,ul{
   list-style: none;
 }
 
-img {
+img{
   max-width: 100%;
   height: auto;
 }
 
-a {
+a{
   text-decoration: none;
 }
 

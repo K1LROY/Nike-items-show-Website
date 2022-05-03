@@ -1,6 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/header.css";
+import $ from "jquery";
+
+$(window).scroll(function () {
+  var scrl = $(window).scrollTop();
+  if (scrl < 60) {
+    $(".header-1").removeClass("fixedbar");
+  } else {
+    $(".header-1").addClass("fixedbar");
+  }
+});
 
 export default function Header() {
   return (
