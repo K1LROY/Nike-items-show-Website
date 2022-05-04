@@ -81,6 +81,22 @@ export default function Details() {
           </div>
         </div>
       </div>
+
+      <div class="parallax-setting" id="para">
+        <div class="container">
+          <div class="row wow fadeInLeft">
+            <div class="col-lg-12 text-center">
+              <p class="color-white font-18">
+                Unleash your creative potential with theme
+              </p>
+              <h2>LOOKING FOR EXCLUSIVE DIGITAL SERVICES ?</h2>
+              <Link to="#" class="text-white btn">
+                LEARN MORE
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
